@@ -7,6 +7,6 @@ Duration: 00:35:57
 Distance: 9.04 km
 Total Size: 140.5 GB
 #############################
-2. use radar and lidar 401*401
+2. use radar and lidar 401*401 -> should means 40*40 meter 
 #############################
 3. get a fine lidar BEV
