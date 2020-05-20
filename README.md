@@ -28,4 +28,21 @@ next -> try to do proprecessing in ccu
 
 ###############################################################
 
-next -> train new dataset with pix2pix and pix2pixhd in ccu
+next -> train new dataset with pix2pix 256*256 finished -> 200 epcho_19_05
+
+
+and pix2pixhd in ccu
+
+
+# L2R-GAN 20/05
+
+
+###############################################################
+
+ToDo:  train  with pix2pix 512*512 in ccu
+###############################################################
+
+ToDo:  train  with pix2pixHD 512*512 in ccu
+###############################################################
+
+
