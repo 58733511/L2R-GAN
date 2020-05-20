@@ -45,4 +45,6 @@ ToDo:  train  with pix2pix 512*512 in ccu
 ToDo:  train  with pix2pixHD 512*512 in ccu
 ###############################################################
 
+ToDo:  plot and save loss -> finished
+###############################################################
 
