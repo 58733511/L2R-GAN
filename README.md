@@ -48,3 +48,9 @@ ToDo:  train  with pix2pixHD 400*400 in ccu -> finished
 ToDo:  plot and save loss -> finished
 ###############################################################
 
+L2R-GAN 21/05
+
+######################################################
+ToDo :read Augmented LiDAR Simulator for Autonomous Driving
+ToDo : think about loss and new network
+
