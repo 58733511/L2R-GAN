@@ -95,3 +95,7 @@ ToDo: Improving 3D Object Detection through Progressive Population Based Augment
 A Method for Synthetic LiDAR Generation to Create Annotated Datasets for Autonomous Vehicles Perception
 
 
+He's saying reduce the number of nuerons in each layer (settings ngf and ndf) and INCREASE the number of layers (n_blocks_global, n_downsample_global, etc).
+
+I have found by experimentation that finer details come through by increasing, in my case, n_blocks_global from the default 9 to 12 with ngf/ndf 32. Will probably experiment with increasing the number n_blocks_local or going above 12 depending on if the details are good enough.
+
