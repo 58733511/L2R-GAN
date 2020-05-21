@@ -59,5 +59,18 @@ ToDo : do the Pix2PixHD test
 
 ######################################################
 
-ToDo : think about loss and new network
+ToDo : think about loss and new network -> loss_filter(g_gan, g_gan_feat, g_vgg, d_real, d_fake):
+
+
+
+losses, generated = model(Variable(data['label']), Variable(data['inst']), 
+            Variable(data['image']), Variable(data['feat']), infer=save_fake)
+
+        # sum per device losses
+        losses = [ torch.mean(x) if not isinstance(x, int) else x for x in losses ]
+        loss_dict = dict(zip(model.module.loss_names, losses))
+
+        # calculate final loss scalar
+        loss_D = (loss_dict['D_fake'] + loss_dict['D_real']) * 0.5
+        loss_G = loss_dict['G_GAN'] + loss_dict.get('G_GAN_Feat',0) + loss_dict.get('G_VGG',0)
 
