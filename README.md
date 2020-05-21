@@ -52,5 +52,12 @@ L2R-GAN 21/05
 
 ######################################################
 ToDo :read Augmented LiDAR Simulator for Autonomous Driving
+
+######################################################
+
+ToDo : do the Pix2PixHD test
+
+######################################################
+
 ToDo : think about loss and new network
 
