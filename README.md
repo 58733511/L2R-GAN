@@ -92,5 +92,6 @@ ToDo:write result and ground truth into html
 
 ToDo: Improving 3D Object Detection through Progressive Population Based Augmentation
 
+A Method for Synthetic LiDAR Generation to Create Annotated Datasets for Autonomous Vehicles Perception
 
 
