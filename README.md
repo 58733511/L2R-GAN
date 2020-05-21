@@ -74,7 +74,6 @@ losses, generated = model(Variable(data['label']), Variable(data['inst']),
         loss_D = (loss_dict['D_fake'] + loss_dict['D_real']) * 0.5
         loss_G = loss_dict['G_GAN'] + loss_dict.get('G_GAN_Feat',0) + loss_dict.get('G_VGG',0)
 
-![Image description](/home/leichen/Pictures/Screenshot from 2020-05-21 11-18-39.png)
-
+![Image description](/home
 
 loss = GAN loss + Feature matching loss + Content loss
