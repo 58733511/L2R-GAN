@@ -80,8 +80,15 @@ Feature matching loss  = perceptual loss
 Discriminator loss for Real Samples(D_Real) Discriminator loss for Generated Samples(D_Fake) Generator Least-Squares GAN Loss(G_GAN) Generator Feature Matching Loss(from Discriminator layers) Generator Feature Matching Loss(from Discriminator layers) Optional Generator VGG Perceptual Loss
 
 GAN loss：和pix2pix一样，使用PatchGAN。
+
+
 Feature matching loss：将生成的样本和Ground truth分别送入判别器提取特征，然后对特征做Element-wise loss
+
+
 Content loss：将生成的样本和Ground truth分别送入VGG16提取特征，然后对特征做Element-wise loss
+
+ToDo:TensorBoard, input raw data -> ccu 
+ToDo:write result and ground truth into html 
 
 
 
