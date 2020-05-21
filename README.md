@@ -74,6 +74,8 @@ losses, generated = model(Variable(data['label']), Variable(data['inst']),
         loss_D = (loss_dict['D_fake'] + loss_dict['D_real']) * 0.5
         loss_G = loss_dict['G_GAN'] + loss_dict.get('G_GAN_Feat',0) + loss_dict.get('G_VGG',0)
 
-![Image description](/home
 
 loss = GAN loss + Feature matching loss + Content loss
+Feature matching loss  = perceptual loss
+Discriminator loss for Real Samples(D_Real) Discriminator loss for Generated Samples(D_Fake) Generator Least-Squares GAN Loss(G_GAN) Generator Feature Matching Loss(from Discriminator layers) Generator Feature Matching Loss(from Discriminator layers) Optional Generator VGG Perceptual Loss
+
