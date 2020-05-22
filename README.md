@@ -99,3 +99,5 @@ He's saying reduce the number of nuerons in each layer (settings ngf and ndf) an
 
 I have found by experimentation that finer details come through by increasing, in my case, n_blocks_global from the default 9 to 12 with ngf/ndf 32. Will probably experiment with increasing the number n_blocks_local or going above 12 depending on if the details are good enough.
 
+22/05
+-> overfit but loss no down ->why?
