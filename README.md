@@ -101,3 +101,7 @@ I have found by experimentation that finer details come through by increasing, i
 
 22/05
 -> overfit but loss no down ->why?
+Presumably the generator is stuck in some local optima while the
+discriminator continues to improve, or at least improving less quickly.
+This should be unsurprising since making a convincing fake image is a
+harder than telling the difference between a real image and a fake image.
